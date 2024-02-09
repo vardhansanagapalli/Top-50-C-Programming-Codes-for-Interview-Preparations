@@ -1,7 +1,8 @@
 #include <stdio.h>
-int main()
-{
-  char ch;
-  ch = getch();
-  printf("%d", ch);
+
+int main() {
+    char inp;    
+    scanf("%c", &inp);
+    int ascii_value = (int)inp;
+    printf("%d\n", ascii_value);
 }
